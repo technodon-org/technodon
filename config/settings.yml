@@ -35,7 +35,8 @@ defaults: &defaults
   use_blurhash: true
   use_pending_items: false
   trends: true
-  trendable_by_default: false
+  trends_as_landing_page: false
+  trendable_by_default: true
   crop_images: true
   notification_emails:
     follow: true
